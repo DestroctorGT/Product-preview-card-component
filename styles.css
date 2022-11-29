@@ -1,0 +1,154 @@
+body {
+  margin: 25px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  margin: 0;
+  padding: 5px 15px;
+}
+
+p,
+footer {
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+}
+
+ul {
+  padding: 5px 10px 0px;
+}
+
+span {
+  padding: 0px 5px;
+}
+
+ul > li {
+  display: inline;
+  list-style-type: none;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  padding: 5px;
+}
+
+a.button:hover {
+  background-color: #162e25;
+}
+
+footer {
+  margin: 24px auto 5px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.img-desktop {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.img-mobile {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: hsl(0, 0%, 100%);
+  max-width: 320px;
+  border-radius: 10px;
+}
+
+.card__items {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.card__txt {
+  margin: 0;
+  padding: 25px 15px 0px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.card__txt--small {
+  padding: 10px 14px 0px;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 24px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  margin: auto auto 15px;
+  padding: 15px 70px;
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 12px;
+}
+
+#discount-price {
+  font-size: 35px;
+  color: hsl(158, 36%, 37%);
+}
+
+#original-price {
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+
+@media only screen and (min-width: 918px) {
+  h1 {
+    padding: 5px 20px;
+  }
+
+  ul {
+    margin: 5px 8px 20px;
+  }
+
+  .card {
+    flex-flow: row;
+    max-width: 605px;
+    align-items: initial;
+  }
+
+  .img-mobile {
+    display: none;
+  }
+
+  .img-desktop {
+    display: block;
+    max-width: 300px;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .card__items {
+    margin: 6px;
+    padding: 6px;
+  }
+
+  .card__txt {
+    padding: 10px 20px 15px;
+  }
+
+  .card__txt--small {
+    line-height: 25px;
+  }
+}
