@@ -4,20 +4,11 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Table of contents
 
-- [Screenshot](#screenshot)
 - [Links](#links)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-### Screenshot
-
-Mobile Design
-![images/chmobile.png](images/chmobile.png.jpg)
-
-Desktop Design
-![images/ch.png](images/ch.png.jpg)
 
 ### Links
 
