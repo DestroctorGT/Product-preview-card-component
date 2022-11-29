@@ -5,8 +5,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ## Table of contents
 
 - [Links](#links)
-  - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
+- [Built with](#built-with)
+- [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
